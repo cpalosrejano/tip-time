@@ -19,6 +19,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // enables the support of drawables (xml) in lower versions than android lollipop (api 21)
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
